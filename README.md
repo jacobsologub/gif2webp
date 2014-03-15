@@ -21,7 +21,7 @@ Usage
 
 ### convert (options, callback)
 
-The first is an `options` object. The only required option is `source`, this should be a `Buffer` containing the gif data; all others are optional.
+The first argument is an `options` object. The only required option is `source`, this should be a `Buffer` containing the gif data; all others are optional.
 
 * `source` - The gif `Buffer`.
 * `lossy` - Encode image using lossy compression `Boolean`.
