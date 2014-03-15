@@ -1,0 +1,17 @@
+{
+    "name": "gif2webp",
+    "description": "A gif to webp converter.",
+    "author": "Jacob Sologub",
+    "version": "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jacobsologub/gif2webp.git"
+    },
+    "licenses" : [
+    	{
+            "type" : "MIT",
+            "url" : "https://raw.githubusercontent.com/jacobsologub/gif2webp/master/LICENSE"
+        }
+    ],
+    "main": "./lib/gif2webp.js"
+}
