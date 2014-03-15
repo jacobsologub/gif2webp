@@ -188,7 +188,7 @@ Handle<Value> convert (const Arguments& args) {
     Local<Function> callback = Local<Function>::Cast (args [1]);
     callback->Call (Context::GetCurrent()->Global(), argc, argv);
 
-    return Undefined();
+    return scope.Close (Undefined());
 }
 
 void RegisterModule (v8::Handle<v8::Object> target) {
