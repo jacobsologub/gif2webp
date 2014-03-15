@@ -21,12 +21,13 @@ Usage
 
 ### convert (options, callback)
 
-The first is an `options` object. The only required option is `source`, this should be a `Buffer` containing the gif data; all others are optional.
+The first argument is an `options` object. The only required option is `source`, this should be a `Buffer` containing the gif data; all others are optional.
 
 * `source` - The gif `Buffer`.
 * `lossy` - Encode image using lossy compression `Boolean`.
 * `mixed` - For each frame in the image, pick lossy or lossless compression heuristically `Boolean`.
 * `quality` - Quality factor (0:small..100:big).
+* `method` - Compression method Quality (0=fast, 6=slowest).
 * `kmin` - Min distance between key frames.
 * `kmax` - Max distance between key frames.
 * `filter` - Filter strength (0=off..100).
