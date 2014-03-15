@@ -71,3 +71,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+WebP Source License
+-------
+
+The WebP source is governed by a BSD-style license that can be found in the [COPYING](https://code.google.com/p/webm/source/browse/COPYING?repo=libwebp) file in the root of the source tree. An additional intellectual property rights grant can be found in the file [PATENTS](https://code.google.com/p/webm/source/browse/PATENTS?repo=libwebp). All contributing project authors may be found in the [AUTHORS](https://code.google.com/p/webm/source/browse/AUTHORS?repo=libwebp) file in the root of the source tree.
