@@ -45,7 +45,7 @@ The callback argument gets 2 arguments:
 Installation
 -------
 
-First downlaod and install [GIFLIB 4.2.x](http://sourceforge.net/projects/giflib/). Then downlaod and install [WebP](https://developers.google.com/speed/webp/download). If you are installing [WebP](https://developers.google.com/speed/webp/download) form source then take a look [here](https://developers.google.com/speed/webp/docs/compiling) and don't forget to use <code>--enable-libwebpmux</code> during the <code>configure</code> process, this is needed for gif conversion.
+First downlaod and install [GIFLIB 4.2.x](http://sourceforge.net/projects/giflib/files/giflib-4.x/). Then downlaod and install [WebP](https://developers.google.com/speed/webp/download). If you are installing [WebP](https://developers.google.com/speed/webp/download) form source then take a look [here](https://developers.google.com/speed/webp/docs/compiling) and don't forget to use <code>--enable-libwebpmux</code> during the <code>configure</code> process, this is needed for gif conversion.
 
     $ npm install gif2webp
     
