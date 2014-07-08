@@ -37,6 +37,7 @@
                     {
                         "include_dirs": [
                             "/usr/local/include",
+                            "/app/build/include",
                             "src/webp",
                             
                         ],
