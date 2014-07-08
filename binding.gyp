@@ -37,21 +37,9 @@
                     {
                         "include_dirs": [
                             "/usr/local/include",
-                            "/app/build/include",
+                            "/app/libwebp/include",
                             "src/webp",
                             
-                        ],
-
-                        "conditions": [
-                            [
-                                'HEROKU=="true"', 
-                                {
-                                    "include_dirs": [
-                                        "/app/build/include",
-                                        "src/webp",
-                                    ]
-                                }
-                            ]
                         ],
 
                         "libraries": [
