@@ -17,8 +17,8 @@
 #include <string.h>
 
 #include <gif_lib.h>
-#include "webp/encode.h"
-#include "webp/mux.h"
+#include <webp/encode.h>
+#include <webp/mux.h>
 #include "example_util.h"
 #include "gif2webp_util.h"
 

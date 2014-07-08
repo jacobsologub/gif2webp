@@ -10,7 +10,7 @@
 //  Utility functions used by the example programs.
 //
 
-#include "./example_util.h"
+#include "example_util.h"
 #include <stdio.h>
 #include <stdlib.h>
 
