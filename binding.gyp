@@ -20,6 +20,7 @@
                     'OS=="mac"',
                     {
                         "include_dirs": [
+                            "vendor/gif/include",
                             "vendor/webp/include",
                             "src/webp"
                         ],
@@ -35,6 +36,7 @@
                     'OS=="linux"',
                     {
                         "include_dirs": [
+                            "vendor/gif/include",
                             "vendor/webp/include",
                             "src/webp"
                         ],
