@@ -1,4 +1,8 @@
 {
+    "variables": {
+        "HEROKU%": '<!(echo $HEROKU)'
+    },
+
     "targets": [
         {
             "target_name": "gif2webp",
@@ -20,6 +24,7 @@
                             "src/webp",
                             
                         ],
+
                         "libraries": [
                             "-lwebp",
                             "-lwebpmux",
@@ -35,6 +40,19 @@
                             "src/webp",
                             
                         ],
+
+                        "conditions": [
+                            [
+                                'HEROKU=="true"', 
+                                {
+                                    "include_dirs": [
+                                        "/app/build/include",
+                                        "src/webp",
+                                    ]
+                                }
+                            ]
+                        ],
+
                         "libraries": [
                             "-lwebp",
                             "-lwebpmux",
