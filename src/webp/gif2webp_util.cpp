@@ -13,7 +13,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-#include <webp/encode.h>
+#include "webp/encode.h"
 #include "gif2webp_util.h"
 
 #define DELTA_INFINITY      1ULL << 32
