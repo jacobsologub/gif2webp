@@ -20,9 +20,7 @@
                     'OS=="mac"',
                     {
                         "include_dirs": [
-                            "/usr/local/include",
-                            "src/webp",
-                            
+                            "src/webp"
                         ],
 
                         "libraries": [
@@ -36,10 +34,7 @@
                     'OS=="linux"',
                     {
                         "include_dirs": [
-                            "/usr/local/include",
-                            "/app/libwebp/include",
-                            "src/webp",
-                            
+                            "src/webp"
                         ],
 
                         "libraries": [
