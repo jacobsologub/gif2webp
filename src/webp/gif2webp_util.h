@@ -16,7 +16,7 @@
 
 #include <stdlib.h>
 
-#include "webp/mux.h"
+#include <webp/mux.h>
 
 #ifdef __cplusplus
 extern "C" {

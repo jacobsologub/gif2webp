@@ -15,7 +15,7 @@
 #ifndef GIF_2_WEBP_MAIN_H_
 #define GIF_2_WEBP_MAIN_H_
 
-#include "webp/mux.h"
+#include <webp/mux.h>
 
 int convert (int argc, const char *argv[], char* data, int length, WebPData* outputData);
 

@@ -13,7 +13,7 @@
 #ifndef WEBP_EXAMPLES_EXAMPLE_UTIL_H_
 #define WEBP_EXAMPLES_EXAMPLE_UTIL_H_
 
-#include "webp/types.h"
+#include <webp/types.h>
 
 #ifdef __cplusplus
 extern "C" {
