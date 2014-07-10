@@ -20,7 +20,7 @@
                     'OS=="mac"',
                     {
                         "include_dirs": [
-                            "/usr/local/include"
+                            "/usr/local/include",
                             "src/webp"
                         ],
 
@@ -35,7 +35,7 @@
                     'OS=="linux"',
                     {
                         "include_dirs": [
-                            "/usr/local/include"
+                            "/usr/local/include",
                             "src/webp"
                         ],
 
